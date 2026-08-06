@@ -1,5 +1,9 @@
 # Signature Flatbreads — KPI Tracker
 
+> **New / junior analyst?** Start here first:  
+> **[`docs/JUNIOR_ANALYST_GUIDE.md`](docs/JUNIOR_ANALYST_GUIDE.md)**  
+> (plain-English explanation with examples)
+
 Data-analyst toolkit for the **Maintenance Team KPI & Monthly Bonus Scheme (V2)**.
 
 ## Lines covered
