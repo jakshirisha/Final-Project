@@ -1,0 +1,20 @@
+field,required,unit,example,where_to_get_it,notes
+month,yes,YYYY-MM,2026-07,Your report month,One row per line per month
+line,yes,code,P1 / T1 / T2 / L8 / L9,Site line ID,P1=Pancake; T1/T2=Tortilla wrap
+line_name,yes,text,Pancake machinery,Fixed label,Helps managers read the report
+planned_production_hours,yes,hours,480,Production plan / Excel,Denominator for OEE Availability
+actual_operating_hours,yes,hours,420,Line log / Excel,Numerator for OEE Availability
+ideal_rate_units_per_hour,yes,units/hour,1200,Engineering standard,For OEE Performance
+actual_output_units,yes,units,480000,Production count,For OEE Performance
+good_units,yes,units,465600,Quality / scrap log,For OEE Quality (must be ≤ actual_output_units)
+breakdown_count,yes,count,12,Teams B/D log + Maintainer,Breakdown Frequency; also used in MTTR/MTBF
+breakdown_hours,yes,hours,18.5,Excel downtime (start→end),Breakdown Hours; also used in MTTR
+planned_pm_jobs,yes,count,25,Maintainer,PM Compliance denominator
+completed_pm_on_time,yes,count,24,Maintainer (completion date ≤ due),PM Compliance numerator
+operational_hours,yes,hours,420,Excel / runtime,MTBF = operational_hours ÷ breakdown_count
+lti_count,yes,count,0,H&S,Safety KPI; if >0 overall bonus ×50%
+major_safety_violation,yes,0/1,0,H&S,If 1 → bonus = 0%
+major_epw,yes,0/1,0,Operations / H&S,If 1 → bonus = 0%
+dishonest_reporting,yes,0/1,0,Management,If 1 → bonus = 0%
+audit_result,no,green/amber/red,green,Audit team,red → bonus ×50%; green → extra reward (confirm amount)
+notes,no,text,,Optional,Anything unusual that month

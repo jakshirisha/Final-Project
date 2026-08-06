@@ -1,0 +1,97 @@
+{
+  "scheme_name": "Maintenance Team KPI & Monthly Bonus Scheme - V2",
+  "company": "Signature Flatbreads",
+  "target_year": 1,
+  "lines": [
+    {"code": "P1", "name": "Pancake machinery", "family": "Pancake"},
+    {"code": "T1", "name": "Tortilla wrap machinery", "family": "Tortilla"},
+    {"code": "T2", "name": "Tortilla wrap machinery", "family": "Tortilla"},
+    {"code": "L8", "name": "Line L8", "family": "L-series"},
+    {"code": "L9", "name": "Line L9", "family": "L-series"}
+  ],
+  "kpis": [
+    {
+      "id": "oee",
+      "name": "OEE",
+      "weight": 0.20,
+      "direction": "higher_better",
+      "unit": "%",
+      "targets": {"year1": 82, "year2": 82, "year3": 82, "world_class": 85}
+    },
+    {
+      "id": "breakdown_frequency",
+      "name": "Breakdown Frequency",
+      "weight": 0.10,
+      "direction": "lower_better",
+      "unit": "count per line per month",
+      "targets": {"year1": 15, "year2": 10, "year3": 10, "world_class": 0}
+    },
+    {
+      "id": "breakdown_hours",
+      "name": "Breakdown Hours",
+      "weight": 0.15,
+      "direction": "lower_better",
+      "unit": "hours per line per month",
+      "targets": {"year1": 20, "year2": 12, "year3": 5, "world_class": null}
+    },
+    {
+      "id": "pm_compliance",
+      "name": "PM Compliance",
+      "weight": 0.20,
+      "direction": "higher_better",
+      "unit": "%",
+      "targets": {"year1": 98, "year2": 98, "year3": 98, "world_class": 95}
+    },
+    {
+      "id": "mttr",
+      "name": "MTTR",
+      "weight": 0.15,
+      "direction": "lower_better",
+      "unit": "hours",
+      "targets": {"year1": 2.5, "year2": 2.0, "year3": 1.5, "world_class": 1.5}
+    },
+    {
+      "id": "mtbf",
+      "name": "MTBF",
+      "weight": 0.10,
+      "direction": "higher_better",
+      "unit": "hours",
+      "targets": {"year1": 150, "year2": 500, "year3": 1000, "world_class": 3000}
+    },
+    {
+      "id": "safety",
+      "name": "Safety",
+      "weight": 0.10,
+      "direction": "zero_lti",
+      "unit": "LTI count",
+      "targets": {"year1": 0, "year2": 0, "year3": 0, "world_class": 0}
+    }
+  ],
+  "bonus_opportunities": {
+    "day_shift": {
+      "Head of department": 1235,
+      "Managers": 918,
+      "Team leaders": 810,
+      "Multi-skilled": 486,
+      "Mechanical / Electrical / Maintenance eng / Control / Electrician": 324,
+      "Handyman / Electrician mate": 243
+    },
+    "night_shift": {
+      "Team leaders": 1020,
+      "Multi-skilled": 900,
+      "Mechanical / Electrical / Maintenance eng / Control / Electrician": 540,
+      "Handyman / Electrician mate": 360,
+      "Junior / mate": 270
+    }
+  },
+  "rules": {
+    "cap_individual_score_pct": 100,
+    "cap_overall_score_pct": 100,
+    "lti_reduces_overall_bonus_to_pct": 50,
+    "major_safety_violation_bonus_pct": 0,
+    "major_epw_bonus_pct": 0,
+    "dishonest_reporting_bonus_pct": 0,
+    "red_audit_bonus_pct": 50,
+    "green_audit_extra_reward": true
+  }
+}

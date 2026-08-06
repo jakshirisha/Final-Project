@@ -1,0 +1,6 @@
+month,line,line_name,planned_production_hours,actual_operating_hours,ideal_rate_units_per_hour,actual_output_units,good_units,breakdown_count,breakdown_hours,planned_pm_jobs,completed_pm_on_time,operational_hours,lti_count,major_safety_violation,major_epw,dishonest_reporting,audit_result,notes
+2026-07,P1,Pancake machinery,,,,,,,,,,,,,,,,,
+2026-07,T1,Tortilla wrap machinery,,,,,,,,,,,,,,,,,
+2026-07,T2,Tortilla wrap machinery,,,,,,,,,,,,,,,,,
+2026-07,L8,Line L8,,,,,,,,,,,,,,,,,
+2026-07,L9,Line L9,,,,,,,,,,,,,,,,,

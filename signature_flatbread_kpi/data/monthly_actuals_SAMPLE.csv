@@ -1,0 +1,6 @@
+month,line,line_name,planned_production_hours,actual_operating_hours,ideal_rate_units_per_hour,actual_output_units,good_units,breakdown_count,breakdown_hours,planned_pm_jobs,completed_pm_on_time,operational_hours,lti_count,major_safety_violation,major_epw,dishonest_reporting,audit_result,notes
+2026-07,P1,Pancake machinery,480,420,1200,480000,465600,12,18.5,25,24,420,0,0,0,0,green,Demo sample — replace with real Maintainer/Excel/Teams data
+2026-07,T1,Tortilla wrap machinery,480,400,1000,380000,372400,14,19.0,30,29,400,0,0,0,0,green,Demo sample
+2026-07,T2,Tortilla wrap machinery,480,410,1000,395000,387100,11,16.0,28,27,410,0,0,0,0,green,Demo sample
+2026-07,L8,Line L8,480,435,900,375000,367500,9,14.0,22,22,435,0,0,0,0,green,Demo sample
+2026-07,L9,Line L9,480,390,900,340000,329800,16,22.0,20,18,390,0,0,0,0,amber,Demo sample — higher breakdowns
