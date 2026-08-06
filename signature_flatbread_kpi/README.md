@@ -12,12 +12,15 @@ Data-analyst toolkit for the **Maintenance Team KPI & Monthly Bonus Scheme (V2)*
 
 ## Quick start (Excel — recommended for the plant)
 
-1. Open **[`Excel_KPI_Calculator.xlsx`](Excel_KPI_Calculator.xlsx)**
-2. On **`1_Actuals_Input`**, type monthly actuals (yellow cells) for **P1, T1, T2, L8, L9**
-3. **`2_KPI_Scorecard`** calculates Actual / Score % / Weighted automatically
-4. **`3_Plant_Bonus`** shows plant score, gatekeepers, and bonus payouts
+**Create sheet + set parameters:** [`docs/CREATE_EXCEL_AND_PARAMETERS.md`](docs/CREATE_EXCEL_AND_PARAMETERS.md)  
+**Blank template (parameters ready):** [`Excel_Create_KPI_Template.xlsx`](Excel_Create_KPI_Template.xlsx)  
+**Demo with sample numbers:** [`Excel_KPI_Calculator.xlsx`](Excel_KPI_Calculator.xlsx)
 
-Full formula guide: [`docs/EXCEL_HOW_TO.md`](docs/EXCEL_HOW_TO.md)
+1. Open the template → confirm **`1_Parameters`** (weights, targets, bonus £)
+2. Type monthly actuals on **`2_Actuals`** (yellow) for **P1, T1, T2, L8, L9**
+3. Read **`3_Scorecard`** and **`4_Bonus`**
+
+Formula guide: [`docs/EXCEL_HOW_TO.md`](docs/EXCEL_HOW_TO.md)
 
 ## Optional: Python / notebook
 
