@@ -10,7 +10,16 @@ Data-analyst toolkit for the **Maintenance Team KPI & Monthly Bonus Scheme (V2)*
 | **T1**, **T2** | Tortilla wrap |
 | **L8**, **L9** | Lines L8 / L9 |
 
-## Quick start
+## Quick start (Excel — recommended for the plant)
+
+1. Open **[`Excel_KPI_Calculator.xlsx`](Excel_KPI_Calculator.xlsx)**
+2. On **`1_Actuals_Input`**, type monthly actuals (yellow cells) for **P1, T1, T2, L8, L9**
+3. **`2_KPI_Scorecard`** calculates Actual / Score % / Weighted automatically
+4. **`3_Plant_Bonus`** shows plant score, gatekeepers, and bonus payouts
+
+Full formula guide: [`docs/EXCEL_HOW_TO.md`](docs/EXCEL_HOW_TO.md)
+
+## Optional: Python / notebook
 
 1. Read the scheme: [`docs/KPI_SCHEME.md`](docs/KPI_SCHEME.md)
 2. Copy the blank month file and fill actuals from Excel / Maintainer / Teams:
@@ -20,16 +29,6 @@ Data-analyst toolkit for the **Maintenance Team KPI & Monthly Bonus Scheme (V2)*
 3. Run the calculator:
    ```bash
    python kpi_calculator.py
-   # or point at your file:
-   python -c "
-   from pathlib import Path
-   from kpi_calculator import calculate_monthly_kpis, bonus_payouts, export_excel
-   scored, gates = calculate_monthly_kpis('data/monthly_actuals_SAMPLE.csv')
-   pay = bonus_payouts(gates['final_bonus_score_pct'])
-   export_excel(scored, gates, pay, 'output/KPI_Report.xlsx')
-   print(gates)
-   print(scored[['line','line_kpi_score_pct']])
-   "
    ```
 4. Open the Excel report in `output/`.
 
