@@ -16,6 +16,8 @@ Data-analyst toolkit for the **Maintenance Team KPI & Monthly Bonus Scheme (V2)*
 
 ## Quick start (Excel — recommended for the plant)
 
+**KPI Dashboard (manager view):** [`Excel_KPI_Dashboard.xlsx`](Excel_KPI_Dashboard.xlsx)  
+**How to create a dashboard:** [`docs/HOW_TO_CREATE_DASHBOARD.md`](docs/HOW_TO_CREATE_DASHBOARD.md)  
 **Create sheet + set parameters:** [`docs/CREATE_EXCEL_AND_PARAMETERS.md`](docs/CREATE_EXCEL_AND_PARAMETERS.md)  
 **Blank template (parameters ready):** [`Excel_Create_KPI_Template.xlsx`](Excel_Create_KPI_Template.xlsx)  
 **Demo with sample numbers:** [`Excel_KPI_Calculator.xlsx`](Excel_KPI_Calculator.xlsx)
