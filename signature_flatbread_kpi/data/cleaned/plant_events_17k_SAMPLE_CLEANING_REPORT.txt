@@ -1,0 +1,13 @@
+Input: /workspace/signature_flatbread_kpi/data/raw/plant_events_17k_SAMPLE.csv
+Start rows: 17,120
+End rows: 17,000
+Columns: ['Timestamp', 'Line', 'Event_Type', 'Downtime_Hours', 'Output_Units', 'Good_Units', 'Operator', 'Shift']
+
+Steps:
+- Dropped fully empty rows/cols (0 rows removed)
+- Set 145 invalid Downtime_Hours (<0 or >24) to missing
+- Fixed 30 rows where Good_Units > Output_Units
+- Filled 145 missing Downtime_Hours with median=0.0
+- Filled 876 missing Operator with 'Unknown'
+- Removed 120 duplicate rows
+- Capped 371 Downtime_Hours outliers above 4.00

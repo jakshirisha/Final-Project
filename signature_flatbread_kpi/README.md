@@ -16,6 +16,8 @@ Data-analyst toolkit for the **Maintenance Team KPI & Monthly Bonus Scheme (V2)*
 
 ## Quick start (Excel — recommended for the plant)
 
+**Clean 17k-row data + plot graphs:** [`docs/CLEAN_AND_PLOT_GUIDE.md`](docs/CLEAN_AND_PLOT_GUIDE.md)  
+Run: `python scripts/clean_and_plot.py` (put your CSV in `data/raw/`)  
 **KPI Dashboard (manager view):** [`Excel_KPI_Dashboard.xlsx`](Excel_KPI_Dashboard.xlsx)  
 **How to create a dashboard:** [`docs/HOW_TO_CREATE_DASHBOARD.md`](docs/HOW_TO_CREATE_DASHBOARD.md)  
 **Create sheet + set parameters:** [`docs/CREATE_EXCEL_AND_PARAMETERS.md`](docs/CREATE_EXCEL_AND_PARAMETERS.md)  

@@ -1,0 +1,4 @@
+*
+!.gitignore
+!*_CLEANING_REPORT.txt
+!plant_events_17k_SAMPLE_CLEANED.csv
